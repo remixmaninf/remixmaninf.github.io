@@ -6791,7 +6791,7 @@ __webpack_require__.r(__webpack_exports__);
 var ApiService = /** @class */ (function () {
     function ApiService(http) {
         this.http = http;
-        this.dataUrl = 'http://citizen.aniccom.com';
+        this.dataUrl = 'https://citizen.aniccom.com';
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
                 'Content-Type': 'application/json; charset=utf-8',
@@ -7197,7 +7197,7 @@ __webpack_require__.r(__webpack_exports__);
 var AuthenticationService = /** @class */ (function () {
     function AuthenticationService(http) {
         this.http = http;
-        this.dataUrl = 'http://citizen.aniccom.com';
+        this.dataUrl = 'https://citizen.aniccom.com';
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
                 'Content-Type': 'application/json; charset=utf-8'
